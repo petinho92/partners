@@ -1,0 +1,18 @@
+<script lang="ts">
+    import { createEventDispatcher } from 'svelte';
+
+    export let list;
+
+    const dispatch = createEventDispatcher();
+    let checkValue = [];
+    export let selected = [];
+
+
+</script>
+
+{#each list as show}
+    <label class="is-pulled-left"><input type="checkbox" on:click={()=> {dispatch('click', selected)}}
+                                         bind:group={selected}
+                                         value={show.id}/> {show.name}</label>
+    <br>
+{/each}
