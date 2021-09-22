@@ -1,0 +1,10 @@
+frontend
+----------
+-handlefetch language
+-dropdown first element grey color
+-registration pictures
+-registration description
+
+backend
+-----------
+-validator message
