@@ -1,5 +1,6 @@
 .idea
 atomino.ini
+mission.txt
 atomino.env
 vendor
 node_modules
