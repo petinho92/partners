@@ -1,33 +1,43 @@
 <script>
     import {_} from 'svelte-i18n';
+
 </script>
 
-<section class="container is-max-desktop maincontainer">
+<section class="hero is-fullheight ">
+    <div class="hero-body ">
+        <div class="container has-text-centered ">
+            <div class="column ">
+                <div class="box mobilwidth">
 
-    <h1 class="title has-text-centered">MIK Partners Szakmai Napok 2021</h1>
-    <h2 class="subtitle has-text-centered">
+                    <h1 class="title has-text-centered mb-6">{$_('main.page_title')}</h1>
+                    <h2 class="subtitle has-text-centered mt-6">
 
-    </h2>
-    <p class="has-text-justified mt-6">
-        A pécsi felsőfokú mérnökképzés 2020-ban ünnepelte fél évszázados fennállását. Nagy ünnep ez számunkra, mint az
-        elsők között létrejött műszaki képzéssel és kutatás-fejlesztéssel foglalkozó intézmény számára. Fontos esemény a
-        régió számára, kinek biztonságos és megalapozott jövőjét, ipari tevékenységét immáron több, mint 50 éve segíti
-        és támogatja karunk. Nagyszerű alkalom az eredmények bemutatására ipari együttműködő partnereink számára, kikkel
-        a szakember képzésen túl számos innovatív együttműködés erősítette a térség és az ország műszaki fejlődését.
-    </p>
-    <p class="has-text-justified">
-        Engedje meg, hogy ezúton tisztelettel meghívjuk Önt a PTE Műszaki és Informatikai Karon 2021. október 7-én
-        megrendezésre kerülő jubileumi rendezvényünkre, a MIK PARTNERS 2021 Szakmai Napra, melynek tematikája a műszaki
-        felsőoktatás és az ipari együttműködések jövője körül forog:
-    </p>
-    <p class="has-text-centered mt-6">
-        <img src="/~web/images/main_mik51.PNG" alt="MIK 51 logo" width="376" height="203">
-    </p>
-    <p class="has-text-justified subtitle mt-6">
-        <b>Regisztráció kezdete:</b> 2021.09.23 16:00
-    </p>
+                    </h2>
+
+                    <div class="content is-medium">
+                        <p class="has-text-justified is-size-7-mobile">{$_('main_page_paragraph1')}</p>
+                    </div>
+                    <div class="content is-medium">
+                        <p class="has-text-justified is-size-7-mobile">{$_('main_page_paragraph2')}</p>
+                    </div>
+                    <div class="content is-medium">
+                        <p class="has-text-justified is-size-7-mobile">{$_('main_page_paragraph3')}</p>
+                    </div>
+                    <div class="content is-medium">
+                        <p class="has-text-justified is-size-7-mobile">{$_('main_page_paragraph4')}</p>
+                    </div>
+                    <div class="content is-medium">
+                        <p class="has-text-justified is-size-7-mobile">{$_('main_page_paragraph5')}</p>
+                    </div>
 
 
+                    <div class="has-text-centered mt-6">
+                        <img src="/~web/images/main_mik51.PNG" alt="MIK 51 logo" width="376" height="203">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 
@@ -36,6 +46,13 @@
         background-color: #ffffff;
         padding: 30px;
         min-height: 90vh;
+    }
+
+    @media only screen and (max-width: 350px) {
+
+        .mobilwidth {
+            min-width: 98vw;
+        }
     }
 
     p {

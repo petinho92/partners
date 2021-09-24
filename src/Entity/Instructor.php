@@ -12,12 +12,12 @@ use Symfony\Component\Validator\Constraints\Regex;
 
 #[Created]
 #[Guid]
-#[Validator('name', NotBlank::class, ['message'=>"name_blank"])]
-#[Validator('organisation', NotBlank::class, ['message'=>"organisation_blank"])]
-#[Validator('email', NotBlank::class, ['message'=>"email_blank"])]
-#[Validator('programs', NotBlank::class, ['message'=>"programs_blank"])]
-#[Validator('mobile', Regex::class, ['pattern'=>"/^[0-9]*$/",'message'=>"mobile_only_number"])]
-#[Validator('email', Email::class, ['message'=>"email_not_valid"])]
+#[Validator('name', NotBlank::class, ['message'=>"Please enter your name"])]
+#[Validator('organisation', NotBlank::class, ['message'=>"Please enter your organization"])]
+#[Validator('email', NotBlank::class, ['message'=>"Please enter your email address"])]
+#[Validator('programs', NotBlank::class, ['message'=>"Please select a program"])]
+#[Validator('mobile', Regex::class, ['pattern'=>"/^[0-9]*$/",'message'=>"Phone Number may only contain numbers"])]
+#[Validator('email', Email::class, ['message'=>"Email format is not valid"])]
 #[Validator(null, UniqueEntity::class, ['fields'=>['email']])]
 #[Modelify(\Application\Database\DefaultConnection::class, 'instructor', true)]
 class Instructor extends _Instructor{

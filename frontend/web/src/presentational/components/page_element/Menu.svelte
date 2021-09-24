@@ -11,76 +11,80 @@
 
 </script>
 <section class="section">
-<nav class="navbar is-transparent is-fixed-top menucolor" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-        <a class="navbar-item" on:click={ () => push("/")}>
-            <img src="/~web/images/mik51_logo.png" alt="home" width="70" height="40">
-        </a>
+    <nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation" id="navbar">
+        <div class="container">
 
-        <div class="navbar-burger burger"
-             onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </div>
+            <!-- logo or branding image on left side -->
+            <div class="navbar-brand">
+                <a class="navbar-item"
+                   on:click={ () => push("/")}>
+                    <img src="/~web/images/mik51_white.png" alt="home" width="90" height="40">
+                </a>
+                <div class="navbar-burger" data-target="navbar-menu"
+                     onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
 
-    <div id="navbarBasicExample" class="navbar-menu {click}">
-        <div class="navbar-start">
-            <a class="navbar-item" on:click={ () => push("/student") }>
-                {$_('menu.registration.student')}
-            </a>
-            <a class="navbar-item" on:click={ () => push("/instructor") }>
-                {$_('menu.registration.instructor')}
-            </a>
-            <a class="navbar-item" on:click={ () => push("/chamber") }>
-                {$_('menu.registration.chamber')}
-            </a>
-            <a class="navbar-item" on:click={ () => push("/guest") }>
-                {$_('menu.registration.guest')}
-            </a>
-        </div>
+            <!-- children of navbar-menu must be navbar-start and/or navbar-end -->
+            <div class="navbar-menu backcolor" id="navbar-menu">
+                <!-- navbar items | left side -->
+                <!-- <div class="navbar-start">
+                </div> -->
+                <!-- navbar items | right side -->
+                <div class="navbar-end">
+                    <a class="navbar-item" on:click={ () => push("/student") }
+                    >{$_('menu.registration.student')}</a>
+                    <a class="navbar-item"
+                       on:click={ () => push("/instructor") }>{$_('menu.registration.instructor')}</a>
+                    <a class="navbar-item" on:click={ () => push("/chamber") }>
+                        {$_('menu.registration.chamber')}
+                    </a>
+                    <a class="navbar-item" on:click={ () => push("/guest") }>
+                        {$_('menu.registration.guest')}
+                    </a>
+                    <div class="navbar-item">
+                        <select bind:value={$languages} class="navbar-item">
+                            <option value="hu">{$_('menu.lang.hu')}</option>
+                            <option value="en">{$_('menu.lang.en')}</option>
+                        </select>
+                    </div>
+                </div>
 
-        <div class="navbar-end">
-            <div class="navbar-item">
-                <select bind:value={$languages}>
-                        <option value="hu">{$_('menu.lang.hu')}</option>
-                        <option value="en">{$_('menu.lang.en')}</option>
-                </select>
             </div>
         </div>
-    </div>
-</nav>
+    </nav>
+
 </section>
 
+
+
+
+
+
 <style>
-    .menucolor {
-        /*background-color: #000f49;*/
-    background-color: rgba(166, 164, 164, 0.4);
-    }
+
 
     @media only screen and (min-width: 601px) {
-        .navbar-item {
-            color: white;
-        }
-    }
-    @media only screen and (max-width: 600px) {
-        .navbar-item {
+        .backcolor {
             color: black;
         }
     }
-    select{
-        width: 150px;
-        height: 50px;
-        color: white;
-        background-color: rgba(166, 164, 164, 0.4);
-        border-radius: 15px;
+
+    @media only screen and (max-width: 600px) {
+        .backcolor {
+            color: #eeeeee;
+        }
     }
 
-    /*a {*/
+    /*select {*/
+    /*    width: 150px;*/
+    /*    height: 50px;*/
     /*    color: white;*/
+    /*    background-color: rgba(166, 164, 164, 0.4);*/
+    /*    border-radius: 15px;*/
     /*}*/
-    /*a:hover{*/
-    /*    color: #f3e7e7;*/
-    /*}*/
+
 </style>

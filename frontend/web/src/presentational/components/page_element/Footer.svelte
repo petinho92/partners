@@ -24,3 +24,26 @@
             </div>
         </div>
     </div>
+
+
+<!--<footer class="footer">-->
+<!--    <div class="container">-->
+<!--        <div class="content has-text-centered">-->
+<!--            <p>-->
+<!--                <a href="">-->
+<!--                    <i class="fab fa-facebook-square fa-2x"></i>-->
+<!--                </a>-->
+<!--                <a href="">-->
+<!--                    <i class="fab fa-youtube-square fa-2x"></i>-->
+<!--                </a>-->
+<!--                <a href="">-->
+<!--                    <i class="fab fa-instagram-square fa-2x"></i>-->
+<!--                </a>-->
+<!--                <a href="">-->
+<!--                    <i class="fa fa-globe fa-2x"></i>-->
+<!--                </a>-->
+<!--            </p>-->
+<!--            <p>PTE MIK 2021</p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</footer>-->

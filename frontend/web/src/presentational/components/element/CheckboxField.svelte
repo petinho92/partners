@@ -11,7 +11,7 @@
 </script>
 
 {#each list as show}
-    <label class="is-pulled-left"><input type="checkbox" on:click={()=> {dispatch('click', selected)}}
+    <label class="is-pulled-left has-text-left"><input type="checkbox" on:click={()=> {dispatch('click', selected)}}
                                          bind:group={selected}
                                          value={show.id}/> {show.name}</label>
     <br>

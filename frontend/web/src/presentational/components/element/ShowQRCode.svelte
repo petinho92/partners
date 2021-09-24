@@ -5,8 +5,8 @@
     export let text;
 
     export let qrCode = new QRCodeStyling({
-        width: 150,
-        height: 150,
+        width: 250,
+        height: 250,
         type: "svg",
         data: $text,
         // image: "frontend/web/src/elements/assets/mik_favico.svg",
@@ -55,7 +55,7 @@
 
 <style>
     .canvasHolder {
-        width: 150px;
+        width: 250px;
         margin: 0 auto 0 auto;
     }
 

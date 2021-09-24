@@ -1,5 +1,6 @@
 <script>
     import QR from "src/presentational/components/element/ShowQRCode.svelte";
+    import {_} from 'svelte-i18n';
     import {writable} from "svelte/store";
 
     let done = writable(false);
@@ -13,9 +14,6 @@
         .then(data => {
             if(data !== false) {
                 $code = data;
-                //     $text = data;
-                console.log("Code értéke");
-                console.log($code);
                 $done = true;
             }
         });
@@ -30,7 +28,7 @@
                     <div class="card">
                         <header class="card-header">
                             <p class="card-header-title">
-                                Az alábbi QR kód használatával tud résztvenni az eseményen.
+                                {$_('qr_text')}
                             </p>
                         </header>
                         <div class="card-content">
@@ -50,12 +48,12 @@
                 <div class="card">
                     <header class="card-header">
                         <p class="card-header-title">
-                            Az alábbi QR kód használatával tud résztvenni az eseményen.
+                            {$_('qr_text')}
                         </p>
                     </header>
                     <div class="card-content">
-                        <h1 class="has-text-centered">Hiba történt!</h1>
-                        <p class="has-text-danger has-text-centered">Nincs ilyen QR kód</p>
+                        <h1 class="has-text-centered">{$_('qr_error')}</h1>
+                        <p class="has-text-danger has-text-centered">{$_('qr_error1')}</p>
                     </div>
                 </div>
             </div>

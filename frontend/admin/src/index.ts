@@ -22,6 +22,7 @@ listManager.add(new UserList());
 let menu = [
 	new MenuItem("Dashboard", FaIcon.s("dice-d6"), () => {pageManager.add(new DashboardPage())}),
 	new MenuItem("User list", FaIcon.s("users"), () => {listManager.add(new UserList())}),
+	// new MenuItem("Regisztráltak", FaIcon.s("users"), ()=>{listManager.add(new )}
 	new MenuItem("User", FaIcon.s("users"), [
 		new MenuItem("New user", FaIcon.s("user-plus"), () => {pageManager.add(new FormPage(new UserForm()))}),
 		new MenuItem("User 1", FaIcon.s("user"), () => {pageManager.add(new FormPage(new UserForm(1)))}),

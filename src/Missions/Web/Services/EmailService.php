@@ -21,11 +21,8 @@ class EmailService{
                 '{{site_url}}' => 'event.mik.pte.hu',
                 '{{qrcode}}' => $cast->getQRCode(),
             ];
-            if($cast->lang === 'hu') {
-                $template = file_get_contents(__DIR__ . '/resources/student_email_hu.html');
-            }else if($cast->lang === 'en'){
-                $template = file_get_contents(__DIR__ . '/resources/student_email_en.html');
-            }
+
+            $template = file_get_contents(__DIR__ . '/resources/emal_hu_en.html');
             $content = strtr($template, $dictionary);
 
             $email = Emailsender::create();
@@ -44,15 +41,10 @@ class EmailService{
             $type = "instructor";
             $dictionary = [
                 '{{name}}' => $cast->name,
-                '{{organisation}}' => $cast->organisation,
                 '{{site_url}}' => 'event.mik.pte.hu',
                 '{{qrcode}}' => $cast->getQRCode(),
             ];
-            if($cast->lang === 'hu') {
-                $template = file_get_contents(__DIR__ . '/resources/instructor_email_hu.html');
-            }else if($cast->lang === 'en'){
-                $template = file_get_contents(__DIR__ . '/resources/instructor_email_en.html');
-            }
+            $template = file_get_contents(__DIR__ . '/resources/emal_hu_en.html');
             $content = strtr($template, $dictionary);
 
             $email = Emailsender::create();
@@ -73,11 +65,7 @@ class EmailService{
                 '{{site_url}}' => 'event.mik.pte.hu',
                 '{{qrcode}}' => $cast->getQRCode(),
             ];
-            if($cast->lang === 'hu') {
-                $template = file_get_contents(__DIR__ . '/resources/chamber_email_hu.html');
-            }else if($cast->lang === 'en'){
-                $template = file_get_contents(__DIR__ . '/resources/chamber_email_en.html');
-            }
+            $template = file_get_contents(__DIR__ . '/resources/emal_hu_en.html');
             $content = strtr($template, $dictionary);
 
             $email = Emailsender::create();
@@ -98,11 +86,7 @@ class EmailService{
                 '{{site_url}}' => 'event.mik.pte.hu',
                 '{{qrcode}}' => $cast->getQRCode(),
             ];
-            if($cast->lang === 'hu') {
-                $template = file_get_contents(__DIR__ . '/resources/guest_email_hu.html');
-            }else if($cast->lang === 'en'){
-                $template = file_get_contents(__DIR__ . '/resources/guest_email_en.html');
-            }
+            $template = file_get_contents(__DIR__ . '/resources/emal_hu_en.html');
             $content = strtr($template, $dictionary);
 
             $email = Emailsender::create();
