@@ -8,6 +8,6 @@ const routes = {
     '/instructor': Registration,
     '/guest': Registration,
     '/chamber': Registration,
-    '/qr/:code' : GetQRCode
+    '/qr/:code' : GetQRCode,
 }
 export default routes;
