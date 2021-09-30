@@ -20,36 +20,10 @@ class QRcodeApi extends Api
     public function qrGet(string $code)
     {
         //MIK51-student-263-5be164ef006b27adc41690096165fee5
+        $result = $this->qrService->checkByHash($code);
+        if($result){
+            return $code;
+        }else return false;
 
-        $data = explode("-", $code);
-        if ($data[1] === 'student') {
-            if ($this->studentService->checkByHash($data[2], $data[3])) {
-                return $code;
-            } else {
-                return false;
-            }
-        }
-        if ($data[1] === 'instructor') {
-            if ($this->instructorService->checkByHash($data[2], $data[3])) {
-                return $code;
-            } else {
-                return false;
-            }
-        }
-        if ($data[1] === 'chamber') {
-            if ($this->chamberService->checkByHash($data[2], $data[3])) {
-                return $code;
-            } else {
-                return false;
-            }
-        }
-        if ($data[1] === 'guest') {
-            if ($this->guestService->checkByHash($data[2], $data[3])) {
-                return $code;
-            } else {
-                return false;
-            }
-        }
-        return false;
     }
 }

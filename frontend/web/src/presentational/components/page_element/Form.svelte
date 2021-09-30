@@ -1,6 +1,6 @@
 <script lang="ts">
     import {_} from 'svelte-i18n';
-    import {plen, section1, section2} from 'src/application/statData/GetPrograms.js';
+    import {plen, section1, section2, chambers} from 'src/application/statData/GetPrograms.js';
     import CheckboxField from "src/presentational/components/element/CheckboxField.svelte";
     import {Button} from 'svelma';
     import {createEventDispatcher} from "svelte";
@@ -14,12 +14,13 @@
     let checkValue1 = [];
     let checkValue2 = [];
     let checkValue3 = [];
+    let checkValue4 = [];
     let disPatched = [];
 
 
     function sendUPData() {
         dispatch('message', {
-            data: checkValue1.concat(checkValue2).concat(checkValue3)
+            data: checkValue1.concat(checkValue2).concat(checkValue3).concat(checkValue4)
         });
     }
 
@@ -57,7 +58,7 @@
 
                         <div class="column is-one-third">
                             <label class="label has-text-left">{$_('form.common.programs.plenary')}</label>
-                            <slot name="plen1">
+                            <slot name="plen">
                                 <CheckboxField list={plen} on:click={setDispatched} bind:selected={checkValue1}/>
                             </slot>
                         </div>
@@ -71,6 +72,14 @@
                             <label class="label has-text-left mt-3">{$_('form.common.programs.section2')}</label>
                             <slot name="plen2">
                                 <CheckboxField list={section2} on:click={setDispatched} bind:selected={checkValue3}/>
+                            </slot>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column is-one-third">
+                            <label class="label has-text-left mt-3">{$_('form.common.programs.chamber')}</label>
+                            <slot name="chamber">
+                                <CheckboxField list={chambers} on:click={setDispatched} bind:selected={checkValue4}/>
                             </slot>
                         </div>
                     </div>
