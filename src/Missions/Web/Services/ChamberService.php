@@ -162,8 +162,39 @@ class ChamberService
 
     public function getAll(): array
     {
-        return Chamber::search()->collect();
+        $data = Chamber::search()->collect();
 
+        $array = array();
+        foreach ($data as $adat){
+            array_push($array, (object)[
+                'id' => $adat->id,
+                'name' => $adat->name,
+                'email' => $adat->email,
+                'foodticket' => $adat->foodTicket,
+                'qrcode' => $adat->getQRCode()
+            ]);
+        }
+        return $array;
+    }
+    public function getfilteredList() : array|object
+    {
+        $data = Chamber::search()->count();
+        $array = array();
+        foreach ($data as $adat){
+            array_push($array, (object)[
+                'id'=>$adat->id,
+                'name' => $adat->name,
+                'email' => $adat->email,
+                'foodticket'=> $adat->foodticket,
+                'qrcode' => $adat->getQRCode()
+            ]);
+        }
+        return $array;
+    }
+
+    public function getCount(): int
+    {
+        return Chamber::search()->count();
     }
 
 }

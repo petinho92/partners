@@ -10,7 +10,8 @@
                 <div class="box mobilwidth">
 
                     <h1 class="title has-text-centered mb-6">{$_('main.page_title')}</h1>
-                    <h2 class="subtitle has-text-centered mt-6">
+                    <h2 class="subtitle has-text-left is-size-4 is-size-6-mobile mt-6 ml-5 has-text-danger">
+                                Felhívjuk szíves figyelmüket, hogy a rendezvény csak védettségi igazolvánnyal vagy azzal egyenértékű igazolással látogatható!<br>
 
                     </h2>
 
@@ -31,6 +32,7 @@
                     </div>
 
                     <h1 class="has-text-left is-size-3 mb-6 ml-4  is-size-5-mobile">Programok</h1>
+                    <h2 class="has-text-left has-text-danger is-size-4 mb-6 ml-5 is-size-6-mobile">A programváltozás jogát fenntartjuk.</h2>
                     <table class="table has-text-left ml-4 is-size-7-mobile">
                         <tr>
                             <td>9:00-9:50</td>
@@ -58,7 +60,7 @@
                         </tr>
                         <tr>
                             <td></td>
-                            <td><b>MATÁSZ - aláírás, felszólalás</b></td>
+                            <td><b>MaTáSzSz - aláírás, felszólalás</b></td>
                         </tr>
                         <tr>
                             <td></td>
@@ -89,8 +91,8 @@
                             <td><b>Szendvicsebéd</b></td>
                         </tr>
                         <tr>
-                            <td>12:20</td>
-                            <td><b>Sajtótájékoztató</b></td>
+                            <td>12:30</td>
+                            <td><b>Sajtótájékoztató (Aula)</b></td>
                         </tr>
                     </table>
 
@@ -375,7 +377,7 @@
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="8. szekció" sectionName="MUNKAVÉDELEM" place="A007" theme="Építőipari munkabiztonság" leader="Bogos Csaba">
+                    <CollapsibleSection section="8. szekció" sectionName="ÉPÍTŐIPARI MUNKABIZTONSÁG" place="A007" theme="Építőipari munkabiztonság" leader="Bogos Csaba">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
@@ -392,6 +394,22 @@
                                     <td>14:15 - 15:00</td>
                                     <td>Virtuális munkavédelem</td>
                                     <td>Dr. Zagorácz Márk Balázs, PTE-MIK, BIM SKILL LAB, kutatásvezető</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </CollapsibleSection>
+                    <CollapsibleSection section="9. szekció" sectionName="VIZUÁLIS TARTALOMSZOLGÁLTATÁS" place="A201" theme="Média műhely - Vizuális trendek, VR, AR" leader="Dr. Kovács Éva">
+                        <div class="content">
+                            <table class="table has-text-left is-size-7-mobile">
+                                <tr>
+                                    <td>13:00 - 14:00</td>
+                                    <td>A Virtuális Valóság és a Mesterséges Intelligencia aprópénzre váltása a mindennapokban</td>
+                                    <td>Koscsó Média Engineering Kft. / Koscsó Ferenc</td>
+                                </tr>
+                                <tr>
+                                    <td>14:00 - 15:00</td>
+                                    <td>Vizuális utómunka, 2D-3D kompozitálás</td>
+                                    <td>Umbrella Kreatív Műhely / Veszely Dániel (TV FOKSZ alumni)</td>
                                 </tr>
                             </table>
                         </div>
@@ -438,35 +456,39 @@
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
-                                    <td>15:30 - 15:50</td>
-                                    <td>BIM a tervezésben</td>
-                                    <td>Kreatív Magyar Mérnök Kft. / Repáruk András</td>
-                                </tr>
-                                <tr>
-                                    <td>15:50 - 16:10</td>
-                                    <td>BIM a kivitelezésben</td>
+                                    <td>15:30 - 15:45</td>
+                                    <td>BIM bevezetése a Market Építő Zrt.-nél</td>
                                     <td>Market Építő Zrt. / Grátzer Szabolcs</td>
                                 </tr>
                                 <tr>
-                                    <td>16:10 - 16:30</td>
+                                    <td>15:45 - 16:00</td>
+                                    <td>BIM a generáltervezésben</td>
+                                    <td>Kreatív Magyar Mérnök Kft. / Repáruk András</td>
+                                </tr>
+                                <tr>
+                                    <td>16:00 - 16:15</td>
                                     <td>BIM a közműépítésben</td>
                                     <td>BIMFRA Kft. / Földi Attila</td>
                                 </tr>
                                 <tr>
-                                    <td>16:30 - 16:50</td>
+                                    <td>16:15 - 16:30</td>
                                     <td>BIM a létesítményüzemeltetésben</td>
                                     <td>Budapest Airport Zrt. / Bedő Gergely</td>
                                 </tr>
                                 <tr>
-                                    <td>16:50 - 17:10</td>
-                                    <td>BIM menedzsment</td>
-                                    <td>BIMPROVE Kft. és 7D Tender Kft. /
-                                        Máder Patrik Márk és Dr. Czira Szabolcs</td>
+                                    <td>16:30 - 16:45</td>
+                                    <td>BIM kitekintés</td>
+                                    <td>7D Tender Kft. / Dr. Czira Szabolcs</td>
                                 </tr>
                                 <tr>
-                                    <td>17:10 - 17:30</td>
-                                    <td>BIM szabványosítás és oktatás</td>
-                                    <td>MABIM - Magyar BIM Szövetség és PTE MIK BIM SKILLS LAB / Rák Olivér és Bakai Nándor</td>
+                                    <td>16:45 - 17:00</td>
+                                    <td>BIM menedzsment</td>
+                                    <td>BIMPROVE Kft. / Máder Patrik Márk</td>
+                                </tr>
+                                <tr>
+                                    <td>17:00 - 17:15</td>
+                                    <td>BIM oktatás</td>
+                                    <td>PTE MIK BIM SKILLS Kutatócsoport / Dr. Rák Olivér</td>
                                 </tr>
                             </table>
                         </div>
@@ -496,8 +518,8 @@
                                 </tr>
                                 <tr>
                                     <td>16:50 - 17:10</td>
-                                    <td>CLEAN TECHNOLOGIES - Zöld úton a cementgyártás / LAFARGE</td>
-                                    <td>Zadravecz Zsófia</td>
+                                    <td>CLEAN TECHNOLOGIES - Zöld úton a cementgyártás</td>
+                                    <td>LAFARGE / Zadravecz Zsófia</td>
                                 </tr>
                                 <tr>
                                     <td>17:10-17:30</td>
@@ -683,7 +705,7 @@
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="9. szekció" sectionName="MUNKAVÉDELEM" place="A007" theme="Épületipari munkabiztonság" leader="Bogos Csaba">
+                    <CollapsibleSection section="9. szekció" sectionName="ÉPÜLETIPARI MUNKABIZTONSÁG" place="A007" theme="Épületipari munkabiztonság" leader="Bogos Csaba">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
@@ -716,6 +738,12 @@
                         </div>
                     </CollapsibleSection>
 
+                    <table class="table has-text-left ml-4">
+                        <tr>
+                            <td>17:30-18:30</td>
+                            <td><b>SZÜNET</b></td>
+                        </tr>
+                    </table>
                     <h1 class="has-text-left is-size-4 mb-6 ml-4  is-size-6-mobile">POLLACK SZOBORAVATÁS ÉS MIK PARTNERS Jubileumi Est - 18:30 - 24:00 - Fogadótér / Aula</h1>
                     <table class="table has-text-left ml-4">
                         <tr>
