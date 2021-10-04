@@ -19,18 +19,18 @@ let authApi = new AuthApi();
 
 pageManager.add(new DashboardPage());
 pageManager.add(new ScannerPage());
-listManager.add(new UserList());
+// listManager.add(new UserList());
 
 let menu = [
 	new MenuItem("Statisztika", FaIcon.s("dice-d6"), () => {pageManager.add(new DashboardPage())}),
 	new MenuItem("Scanner", FaIcon.s("dice-d6"), ()=> {pageManager.add(new ScannerPage())}),
-	new MenuItem("User list", FaIcon.s("users"), () => {listManager.add(new UserList())}),
+	new MenuItem("User list", FaIcon.s("users"), () => {listManager.add(new UserList())}, "administrator"),
 	// new MenuItem("Regisztráltak", FaIcon.s("users"), ()=>{listManager.add(new )}
 	new MenuItem("User", FaIcon.s("users"), [
 		new MenuItem("New user", FaIcon.s("user-plus"), () => {pageManager.add(new FormPage(new UserForm()))}),
 		new MenuItem("User 1", FaIcon.s("user"), () => {pageManager.add(new FormPage(new UserForm(1)))}),
 		new MenuItem("User non exists", FaIcon.s("user"), () => {pageManager.add(new FormPage(new UserForm(100)))})
-	]),
+	],"administrator"),
 ]
 
 window.addEventListener('load', () => new App({target: document.body, props: {pageManager, listManager, menu, authApi}}));
