@@ -3,7 +3,6 @@
     export let section;
     export let sectionName;
     export let place;
-    export let theme;
     export let leader;
     let expanded = false
 </script>
@@ -12,7 +11,6 @@
     <div class="notification headercolor" aria-expanded={expanded} on:click={() => expanded = !expanded}>
         <span class="is-size-5">{section}</span>: <b>{sectionName}</b><br />
         Terem: <b>{place}</b><br/>
-        Téma: <b>{theme}</b><br/>
         Szekció vezető elnök: <b>{leader}</b>
     </div>
 

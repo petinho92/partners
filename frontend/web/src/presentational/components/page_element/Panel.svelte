@@ -98,7 +98,7 @@
 
                     <h1 class="has-text-left is-size-4 mb-6 ml-4 is-size-6-mobile">MIK PARTNERS - I. BLOKK - 13:00 - 15:00</h1>
 
-                    <CollapsibleSection section="1/A. szekció" sectionName="INFORMATIKA" place="A010" theme="MI, VR, Cloud megoldások" leader="Dr. Schiffer Ádám">
+                    <CollapsibleSection section="1/A. szekció" place="A010" sectionName="MI, VR, Cloud megoldások" leader="Dr. Schiffer Ádám">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
@@ -109,7 +109,7 @@
                                 <tr>
                                     <td>13:30 - 14:00</td>
                                     <td>5G és a mesterséges intelligencia gyakorlati példái</td>
-                                    <td>Huawei / Bóday Tamás, Gecse Mariann</td>
+                                    <td>Huawei / Bóday Tamás</td>
                                 </tr>
                                 <tr>
                                     <td>14:00 - 14:30</td>
@@ -124,7 +124,7 @@
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="1/B. szekció" sectionName="INFORMATIKA" place="A008" theme="Szoftverfejlesztés, üzleti megoldások" leader="Dr. Iványi Péter">
+                    <CollapsibleSection section="1/B. szekció" place="A008" sectionName="Szoftverfejlesztés, üzleti megoldások" leader="Dr. Iványi Péter">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
@@ -135,7 +135,7 @@
                                 <tr>
                                     <td>13:30 - 14:00</td>
                                     <td>Paradigmaváltás a nagyvállalati informatikában - Miért, hogyan és kivel?</td>
-                                    <td>ULX/ Török Tamás</td>
+                                    <td>ULX / Török Tamás</td>
                                 </tr>
                                 <tr>
                                     <td>14:00 - 14:30</td>
@@ -150,7 +150,7 @@
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="2. szekció" sectionName="ÉPÍTÉSZ - TELEPÜLÉS" place="E81" theme="Könnyűszerkezet / Fenntartható jövő" leader="Dr. Perényi László Mihály">
+                    <CollapsibleSection section="2. szekció" place="E81" sectionName="Könnyűszerkezet / Fenntartható jövő" leader="Dr. Perényi László Mihály">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
@@ -171,22 +171,22 @@
                                 <tr>
                                     <td>14:00 - 14:20</td>
                                     <td>Membránszerkezetek tervezése</td>
-                                    <td>Dr. Halada Miklós</td>
+                                    <td>PTE MIK / Dr. Halada Miklós</td>
                                 </tr>
                                 <tr>
                                     <td>14:20 - 14:40</td>
                                     <td>Tervezés segítés parametrikus modellezéssel</td>
-                                    <td>Dr. Széll Attila Béla és Dr. Sárközi Réka</td>
+                                    <td>PTE MIK / Dr. Széll Attila Béla és Dr. Sárközi Réka</td>
                                 </tr>
                                 <tr>
                                     <td>14:40 - 15:00</td>
                                     <td>Függönyfal tervezés alkalmazások - VIS 3D szoftver</td>
-                                    <td>WICONA - Dömötör Álmos / Pályi Péter</td>
+                                    <td>WICONA / Dömötör Álmos és Pályi Péter</td>
                                 </tr>
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="3. szekció" sectionName="ÉPÍTŐ" place="A302" theme="Modern infrastruktúra - új kihívások" leader="Prof. Dr. Lindenbach Ágnes / Dr. Pál-Schreiner Judit">
+                    <CollapsibleSection section="3. szekció" place="A302" sectionName="Modern infrastruktúra - új kihívások" leader="Prof. Dr. Lindenbach Ágnes / Dr. Pál-Schreiner Judit">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
@@ -202,12 +202,12 @@
                                 <tr>
                                     <td>13:30 - 13:45</td>
                                     <td>Vasúti híd helyreállítása a Rinya folyó felett a 2020-as nyári villámárvíz után </td>
-                                    <td>MÁV Zrt./ Simon Ilona, pályalétesítményi szakértő és Giczi Katalin, kiemelt beruházási projekt-koordinátor</td>
+                                    <td>MÁV Zrt. / Simon Ilona, pályalétesítményi szakértő és Giczi Katalin, kiemelt beruházási projekt-koordinátor</td>
                                 </tr>
                                 <tr>
                                     <td>13:45 - 14:00</td>
                                     <td>Betonpaplan réteg optimális alkalmazása a közlekedésépítésben </td>
-                                    <td>PTE MIK/ Eller Balázs tanársegéd, doktorandusz</td>
+                                    <td>PTE MIK / Eller Balázs</td>
                                 </tr>
                                 <tr>
                                     <td>14:00 - 14:15</td>
@@ -216,24 +216,24 @@
                                 </tr>
                                 <tr>
                                     <td>14:15 - 14:30</td>
-                                    <td>csapadékvízelvezetés és környezettudatos betonfejlesztés</td>
-                                    <td>BG-Graspointner / Bencze Zoltán, tervezési tanácsadó</td>
+                                    <td>Csapadékvíz elvezetés és környezettudatos betonfejlesztés</td>
+                                    <td>BG-Graspointner Kft. / Bencze Zoltán, tervezési tanácsadó</td>
                                 </tr>
                                 <tr>
                                     <td>14:30 - 14:45</td>
                                     <td>A műszaki pálya jövője</td>
-                                    <td>Tettyeforrásház Zrt.-Duális partner / Jádi Barnabás, Kósa Dániel és Varga Róbert</td>
+                                    <td>Tettyeforrásház Zrt. - Duális partner / Jádi Barnabás, Kósa Dániel és Varga Róbert</td>
                                 </tr>
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="4. szekció" sectionName="VILLAMOS" place="A015" theme="Modern méréstechnika és jelfeldolgozás" leader="Kisander Zsolt">
+                    <CollapsibleSection section="4. szekció" place="A015" sectionName="Modern méréstechnika és jelfeldolgozás" leader="Kisander Zsolt">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
                                     <td>13:00 - 13:20</td>
                                     <td>Roncsolásmentes méréstechnika</td>
-                                    <td>Máthé Kálmán</td>
+                                    <td>PTE MIK / Máthé Kálmán</td>
                                 </tr>
                                 <tr>
                                     <td>13:20 - 13:40</td>
@@ -263,13 +263,13 @@
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="5. szekció" sectionName="GÉPÉSZ(általános)" place="A017" theme="Kötés- és gyártástechnológiák" leader="Vasvári Gyula Ferenc">
+                    <CollapsibleSection section="5. szekció" place="A017" sectionName="Kötés- és gyártástechnológiák" leader="Vasvári Gyula Ferenc">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
                                     <td>13:00 - 13:20</td>
                                     <td>Lézerhegesztés technológia bevezetése a Körber Hungária Gépgyártó Kft.-nél</td>
-                                    <td>KÖRBER HUNGÁRIA KFT./ Riszt Péter</td>
+                                    <td>KÖRBER HUNGÁRIA KFT. / Riszt Péter</td>
                                 </tr>
                                 <tr>
                                     <td>13:20 - 13:40</td>
@@ -299,7 +299,7 @@
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="6. szekció" sectionName="ÉPÜLETGÉPÉSZ" place="A019" theme="Épületgépészeti irányítástechnika - Vinkler Károly Emlékülés" leader="Baumann Mihály">
+                    <CollapsibleSection section="6. szekció" place="A019" sectionName="Épületgépészeti irányítástechnika - Vinkler Károly Emlékülés" leader="Baumann Mihály">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
@@ -310,7 +310,7 @@
                                 <tr>
                                     <td>13:15 - 13:30</td>
                                     <td>Távhő rendszer irányítása a TERMIS programmal</td>
-                                    <td>PÉTÁV/ Győri Csaba</td>
+                                    <td>PÉTÁV / Győri Csaba</td>
                                 </tr>
                                 <tr>
                                     <td>13:30 - 13:45</td>
@@ -335,7 +335,7 @@
                                 <tr>
                                     <td>14:30 - 14:45</td>
                                     <td>Intelligens szelepmozgató motorok szerepe az épület-felügyeletben</td>
-                                    <td>DANFOSS /  Székely Tamás</td>
+                                    <td>DANFOSS / Székely Tamás</td>
                                 </tr>
                                 <tr>
                                     <td>14:45 - 15:00</td>
@@ -345,7 +345,7 @@
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="7. szekció" sectionName="KÖRNYEZETMÉRNÖK + VILLAMOSMÉRNÖK KÖZÖS SZEKCIÓ" place="A202" theme="Energiatárolás és hidrogéntechnológiák" leader="Dr. Kvasznicza Zoltán">
+                    <CollapsibleSection section="7. szekció" place="A202" sectionName="Energiatárolás és hidrogéntechnológiák" leader="Dr. Kvasznicza Zoltán">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
@@ -369,15 +369,10 @@
                                     <td>Tüzelőanyagcellás termékek fejlesztése</td>
                                     <td>Kontakt-Elektro Kft. / Hirth Olivér</td>
                                 </tr>
-                                <tr>
-                                    <td>14:40 - 15:00</td>
-                                    <td>Lignocellulóz alapú hidrogén előállítás elgázosítással: források és lehetőségek</td>
-                                    <td>PTE MIK / Dr. Ivelics Ramón</td>
-                                </tr>
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="8. szekció" sectionName="ÉPÍTŐIPARI MUNKABIZTONSÁG" place="A007" theme="Építőipari munkabiztonság" leader="Bogos Csaba">
+                    <CollapsibleSection section="8. szekció" place="A007" sectionName="Építőipari munkabiztonság" leader="Bogos Csaba">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
@@ -393,12 +388,12 @@
                                 <tr>
                                     <td>14:15 - 15:00</td>
                                     <td>Virtuális munkavédelem</td>
-                                    <td>Dr. Zagorácz Márk Balázs, PTE-MIK, BIM SKILL LAB, kutatásvezető</td>
+                                    <td>PTE MIK BIM SKILL LAB / Dr. Zagorácz Márk Balázs, kutatásvezető</td>
                                 </tr>
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="9. szekció" sectionName="VIZUÁLIS TARTALOMSZOLGÁLTATÁS" place="A201" theme="Média műhely - Vizuális trendek, VR, AR" leader="Dr. Kovács Éva">
+                    <CollapsibleSection section="9. szekció" place="A201" sectionName="Média műhely - Vizuális trendek, VR, AR" leader="Dr. Kovács Éva">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
@@ -414,7 +409,7 @@
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="10. szekció" sectionName="BARANYA MEGYEI MÉRNÖKI KAMARA AKKREDITÁLT KÉPZÉSE" place="A204" theme="Betontechnológia 2." leader="Prof. Dr. Orbán József">
+                    <CollapsibleSection section="10. szekció" place="A204" sectionName="Betontechnológia 2." leader="Prof. Dr. Orbán József">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
@@ -425,14 +420,20 @@
                             </table>
                         </div>
                     </CollapsibleSection>
+                    <table class="table has-text-left ml-4">
+                        <tr>
+                            <td>15:00-15:30</td>
+                            <td><b>Kávészünet</b></td>
+                        </tr>
+                    </table>
                     <h1 class="has-text-left is-size-4 mb-6 ml-4  is-size-6-mobile">MIK PARTNERS - II. BLOKK - 15:30 - 17:30</h1>
-                    <CollapsibleSection section="1. szekció" sectionName="INFORMATIKA" place="A010" theme="Alkalmazott informatika" leader="Dr. Várady Géza">
+                    <CollapsibleSection section="1. szekció" place="A010" sectionName="Alkalmazott informatika" leader="Dr. Várady Géza">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
                                     <td>15:30 - 16:00</td>
                                     <td>Az önvezető autók hajnala - A mobilitás jelene és jövője</td>
-                                    <td>Continental / Adorján Bence</td>
+                                    <td>Continental / Dósa Patrik</td>
                                 </tr>
                                 <tr>
                                     <td>16:00 - 16:30</td>
@@ -452,7 +453,7 @@
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="2. szekció" sectionName="DIGITALIZÁLT ÉPÍTŐIPAR" place="A008" theme="Digitalizált építőipari értéklánc" leader="Dr. Zagorácz Márk Balázs">
+                    <CollapsibleSection section="2. szekció" place="A008" sectionName="Digitalizált építőipari értéklánc" leader="Dr. Zagorácz Márk Balázs">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
@@ -493,7 +494,7 @@
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="3. szekció" sectionName="ÉPÍTÉSZ - TELEPÜLÉS" place="E81" theme="Carbon-semleges építészet felé" leader="Dr. Kistelegdi István">
+                    <CollapsibleSection section="3. szekció" place="E81" sectionName="Carbon-semleges építészet felé" leader="Dr. Kistelegdi István / Dr. Kondor Tamás">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
@@ -524,12 +525,12 @@
                                 <tr>
                                     <td>17:10-17:30</td>
                                     <td>Energiatermelő homlokzatok</td>
-                                    <td>KÉSZ Csoport - Metaltech Kft. / Barócsi Róbert</td>
+                                    <td>KÉSZ Csoport - Metaltech Kft. / Figeczki Péter</td>
                                 </tr>
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="4. szekció" sectionName="ÉPÍTŐ" place="A302" theme="SUSTAINABILITY PRINCIPLES IN CIVIL ENGINEERING" leader="Dr. Zoltán Orbán">
+                    <CollapsibleSection section="4. szekció" sectionName="SUSTAINABILITY PRINCIPLES IN CIVIL ENGINEERING" leader="Dr. Zoltán Orbán">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
@@ -560,13 +561,13 @@
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="5. szekció" sectionName="KÖRNYEZETMÉRNÖK" place="A017" theme="Alternatív tüzelőanyagok" leader="Dr. Kiss Tibor">
+                    <CollapsibleSection section="5. szekció" sectionName="Alternatív tüzelőanyagok" leader="Dr. Kiss Tibor">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
                                     <td>15:30 - 15:50</td>
-                                    <td>Alternatív tüzelőanyagok - tüzelőanyag előkészítés vagy füstgáz kezelés ?</td>
-                                    <td>FKF Zrt. /PTE MIK / Dr. Kiss Tibor</td>
+                                    <td>Alternatív tüzelőanyagok - tüzelőanyag előkészítés vagy füstgáz kezelés?</td>
+                                    <td>FKF Zrt. / PTE MIK / Dr. Kiss Tibor</td>
                                 </tr>
                                 <tr>
                                     <td>15:55 - 16:15</td>
@@ -591,7 +592,7 @@
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="6. szekció" sectionName="GÉPÉSZ(általános)" place="A019" theme="Innovatív fejlesztések a gépgyártásban" leader="Zsebe Tamás">
+                    <CollapsibleSection section="6. szekció" sectionName="Innovatív fejlesztések a gépgyártásban" leader="Zsebe Tamás">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
@@ -627,7 +628,7 @@
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="7. szekció" sectionName="ÉPÜLETGÉPÉSZ" place="A015" theme="Energiatudatos épületgépészet" leader="Eördöghné Dr. Miklós Mária">
+                    <CollapsibleSection section="7. szekció" sectionName="Energiatudatos épületgépészet" leader="Eördöghné Dr. Miklós Mária">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
@@ -678,7 +679,7 @@
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="8. szekció" sectionName="KÖRNYEZETMÉRNÖK + VILLAMOSMÉRNÖK KÖZÖS SZEKCIÓ" place="A202" theme="Energiatárolás és hidrogéntechnológiák" leader="Dr. Kvasznicza Zoltán">
+                    <CollapsibleSection section="8. szekció" place="A202" sectionName="Energiatárolás és hidrogéntechnológiák" leader="Dr. Kvasznicza Zoltán">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
@@ -705,7 +706,7 @@
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="9. szekció" sectionName="ÉPÍTŐIPARI MUNKABIZTONSÁG" place="A007" theme="Épületipari munkabiztonság" leader="Bogos Csaba">
+                    <CollapsibleSection section="9. szekció" place="A007" sectionName="Épületipari munkabiztonság" leader="Bogos Csaba">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
@@ -726,7 +727,7 @@
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="10. szekció" sectionName="BARANYA MEGYEI MÉRNÖKI KAMARA AKKREDITÁLT KÉPZÉSE" place="A204" theme="Betontechnológia 2." leader="Prof. Dr. Orbán József">
+                    <CollapsibleSection section="10. szekció" place="A204" sectionName="Betontechnológia 2." leader="Prof. Dr. Orbán József">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
@@ -747,7 +748,7 @@
                     <h1 class="has-text-left is-size-4 mb-6 ml-4  is-size-6-mobile">POLLACK SZOBORAVATÁS ÉS MIK PARTNERS Jubileumi Est - 18:30 - 24:00 - Fogadótér / Aula</h1>
                     <table class="table has-text-left ml-4">
                         <tr>
-                            <td>13:30-19:00</td>
+                            <td>18:30-19:00</td>
                             <td><b>Szoboravatás - MIK 51 ÉV</b></td>
                         </tr>
                         <tr>
