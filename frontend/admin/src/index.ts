@@ -10,6 +10,7 @@ import PageManager from "gold/lib/page-manager";
 import UserForm from "./pages/user-form";
 import UserList from "./pages/user-list";
 import DashboardPage from "./pages/dashboard-page";
+import ScannerPage from "./application/pages/scanner-page";
 
 
 let pageManager = new PageManager();
@@ -17,10 +18,12 @@ let listManager = new ListManager();
 let authApi = new AuthApi();
 
 pageManager.add(new DashboardPage());
+pageManager.add(new ScannerPage());
 listManager.add(new UserList());
 
 let menu = [
-	new MenuItem("Dashboard", FaIcon.s("dice-d6"), () => {pageManager.add(new DashboardPage())}),
+	new MenuItem("Statisztika", FaIcon.s("dice-d6"), () => {pageManager.add(new DashboardPage())}),
+	new MenuItem("Scanner", FaIcon.s("dice-d6"), ()=> {pageManager.add(new ScannerPage())}),
 	new MenuItem("User list", FaIcon.s("users"), () => {listManager.add(new UserList())}),
 	// new MenuItem("Regisztráltak", FaIcon.s("users"), ()=>{listManager.add(new )}
 	new MenuItem("User", FaIcon.s("users"), [

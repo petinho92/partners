@@ -437,7 +437,7 @@
                                 <tr>
                                     <td>16:00 - 16:30</td>
                                     <td>Innovatív digitális HR-megoldások</td>
-                                    <td>Nexon / Barna István és Purcsi János </td>
+                                    <td>NEXON / Barna István és Purcsi János </td>
                                 </tr>
                                 <tr>
                                     <td>16:30 - 17:00</td>
@@ -446,8 +446,8 @@
                                 </tr>
                                 <tr>
                                     <td>17:00 - 17:30</td>
-                                    <td>Orvos-mérnöki innovatív megoldások a PTE-n</td>
-                                    <td>MIK / Dr. Schiffer Ádám</td>
+                                    <td>3D nyomtatás, prototipizálás és szoftverfejlesztés az egészségügy szolgálatában</td>
+                                    <td>PTE 3D Központ / Bene Mátyás Péter</td>
                                 </tr>
                             </table>
                         </div>
@@ -580,7 +580,7 @@
                                 </tr>
                                 <tr>
                                     <td>16:45 - 17:05</td>
-                                    <td>Biogáz előállítás és hasznosítás tapasztalatai</td>
+                                    <td>Ko-fermentációs biogáz technológia üzemeltetésének nyomon követése dehidrogenáz enzimaktivitás vizsgálattal a TETTYE FORRÁSHÁZ Zrt. biogáz üzemében</td>
                                     <td>Tettye Forrásház Zrt. / Ambrusits Balázs, Kósa Dániel</td>
                                 </tr>
                                 <tr>
@@ -705,7 +705,7 @@
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="9. szekció" sectionName="ÉPÜLETIPARI MUNKABIZTONSÁG" place="A007" theme="Épületipari munkabiztonság" leader="Bogos Csaba">
+                    <CollapsibleSection section="9. szekció" sectionName="ÉPÍTŐIPARI MUNKABIZTONSÁG" place="A007" theme="Épületipari munkabiztonság" leader="Bogos Csaba">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>

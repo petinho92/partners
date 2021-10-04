@@ -9,5 +9,6 @@ const routes = {
     '/guest': Registration,
     '/chamber': Registration,
     '/qr/:code' : GetQRCode,
+
 }
 export default routes;

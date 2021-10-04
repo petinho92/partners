@@ -24,7 +24,7 @@ export default function handleFetch(res: Response) {
 //				for (let field in output) if(output.hasOwnProperty(field)) toast.danger('Validation error: ' + field + '<div class="is-size-7">'+ output[field] +'</div>');
 				for (let field in output){
 					if(output.hasOwnProperty(field)) {
-						snackbar.danger('<div class="is-size-8 has-text-weight-bold">'+ output[field] +'</div>');
+						snackbar.danger(output[field]);
 					}
 				}
 

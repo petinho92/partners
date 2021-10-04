@@ -2,7 +2,7 @@
     import {_, locale} from 'svelte-i18n';
     import Form from '../page_element/Form.svelte';
     import InputField from "src/presentational/components/element/InputField.svelte";
-    import {foodTicket_hu, foodTicket_en} from "src/application/statData/GetFoodList.js";
+    import {foodTicket_hu, foodTicket_en} from "src/application/statData/GetFood.ts";
     import GuestFormData from "src/application/formData/GuestFormData.ts";
     import HandleFetch from "src/application/services/handle-fetch";
     import ModalCard from "src/presentational/components/element/ModalCard.svelte";

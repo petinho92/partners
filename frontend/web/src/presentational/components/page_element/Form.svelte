@@ -1,6 +1,6 @@
 <script lang="ts">
     import {_} from 'svelte-i18n';
-    import {plen, section1, section2, chambers} from 'src/application/statData/GetPrograms.js';
+    import {plen, section1, section2, chambers} from 'src/application/statData/GetProgram.ts';
     import CheckboxField from "src/presentational/components/element/CheckboxField.svelte";
     import {Button} from 'svelma';
     import {createEventDispatcher} from "svelte";

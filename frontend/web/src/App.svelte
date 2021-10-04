@@ -4,7 +4,7 @@
     import '@fortawesome/fontawesome-free/js/solid.js';
     import 'bulma/css/bulma.css';
     import Router from 'svelte-spa-router';
-    import routes from "src/routes.ts";
+    import routes from "src/application/router/routes.ts";
     import {_, addMessages, init} from "svelte-i18n";
     import hu from './application/lang/hu.json';
     import en from './application/lang/en.json';

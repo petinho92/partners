@@ -5,8 +5,8 @@
     import ChamberFormData from "src/application/formData/ChamberFormData.ts";
     import SelectField from "src/presentational/components/element/SelectField.svelte";
     import HandleFetch from "src/application/services/handle-fetch.ts";
-    import {chambers} from 'src/application/statData/GetChambers.js';
-    import {foodTicket_en, foodTicket_hu} from "src/application/statData/GetFoodList.js";
+    import {chambers} from 'src/application/statData/GetChamber.ts';
+    import {foodTicket_en, foodTicket_hu} from "src/application/statData/GetFood.ts";
     import ModalCard from "src/presentational/components/element/ModalCard.svelte";
 
     let formData = new ChamberFormData();

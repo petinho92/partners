@@ -6,8 +6,8 @@
     import ModalCard from "src/presentational/components/element/ModalCard.svelte";
     import InputField from "src/presentational/components/element/InputField.svelte";
     import SelectField from "src/presentational/components/element/SelectField.svelte";
-    import {majors_hu, majors_en} from 'src/application/statData/GetMajors.js';
-    import {semesters_en, semesters_hu} from 'src/application/statData/GetSemesters.js';
+    import {majors_hu, majors_en} from 'src/application/statData/GetMajor.ts';
+    import {semesters_en, semesters_hu} from 'src/application/statData/GetSemester.ts';
 
 
     let privacyPath;

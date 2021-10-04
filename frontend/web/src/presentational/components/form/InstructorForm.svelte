@@ -4,7 +4,7 @@
     import InputField from "src/presentational/components/element/InputField.svelte";
     import SelectField from "src/presentational/components/element/SelectField.svelte";
     import InstructorFormData from "src/application/formData/InstructorFormData.ts";
-    import {foodTicket_en, foodTicket_hu} from "src/application/statData/GetFoodList.js";
+    import {foodTicket_en, foodTicket_hu} from "src/application/statData/GetFood.ts";
     import CheckboxField from "src/presentational/components/element/CheckboxField.svelte";
     import HandleFetch from "src/application/services/handle-fetch";
     import ModalCard from "src/presentational/components/element/ModalCard.svelte";
