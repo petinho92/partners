@@ -12,7 +12,6 @@
                     <h1 class="title has-text-centered mb-6">{$_('main.page_title')}</h1>
                     <h2 class="subtitle has-text-left is-size-4 is-size-6-mobile mt-6 ml-5 has-text-danger">
                                 Felhívjuk szíves figyelmüket, hogy a rendezvény csak védettségi igazolvánnyal vagy azzal egyenértékű igazolással látogatható!<br>
-
                     </h2>
 
                     <div class="content is-medium">
