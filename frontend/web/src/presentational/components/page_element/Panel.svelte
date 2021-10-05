@@ -749,7 +749,7 @@
                         </div>
                     </CollapsibleSection>
 
-                    <h1 class="has-text-left is-size-4 mb-6 ml-4  is-size-6-mobile">POLLACK SZOBORAVATÁS ÉS MIK PARTNERS Jubileumi Est - 18:30 - 24:00 - Fogadótér / Aula</h1>
+
 
 
 
