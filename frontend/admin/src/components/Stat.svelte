@@ -36,7 +36,8 @@
 
 
     let search = "";
-    const columns = ["ID", "Name", "Email", "FoodTicket", "QR Code"];
+    // const columns = ["ID", "Name", "Email", "FoodTicket", "QR Code", "Organisation"];
+     const columns = ["Name", "Email", "QR Code", "Organisation"];
 
     function searchFor(search) {
         return data.filter(item => {

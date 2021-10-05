@@ -17,6 +17,7 @@ class StudentService
                 'name' => $adat->name,
                 'email' => $adat->email,
                 'foodticket' => "",
+                'organisation' => "",
                 'qrcode' => $adat->getQRCode()
             ]);
         }

@@ -43,10 +43,6 @@
                         </tr>
                         <tr>
                             <td></td>
-                            <td><b>PTE Kuratóriumi elnök köszöntője</b></td>
-                        </tr>
-                        <tr>
-                            <td></td>
                             <td><b>PTE Rektor köszöntője</b></td>
                         </tr>
                         <tr>
@@ -67,10 +63,6 @@
                         </tr>
                         <tr>
                             <td></td>
-                            <td><b>Paks 2 támogatás bemutatása, felszólalás</b></td>
-                        </tr>
-                        <tr>
-                            <td></td>
                             <td><b>ExxonMobil terem kulcsátadója</b></td>
                         </tr>
                         <tr>
@@ -78,11 +70,11 @@
                             <td><b>Plenáris előadások</b></td>
                         </tr>
                         <tr>
-                            <td>11:00-11:30</td>
+                            <td></td>
                             <td><b>INNOVATÍV ORVOSMÉRNÖKI KUTATÁSOK A MIK-EN</b></td>
                         </tr>
                         <tr>
-                            <td>11:30-12:00</td>
+                            <td></td>
                             <td><b>ZERO CARBON CITIES Solar Decathlon 2021</b></td>
                         </tr>
                         <tr>
@@ -92,6 +84,30 @@
                         <tr>
                             <td>12:30</td>
                             <td><b>Sajtótájékoztató (Aula)</b></td>
+                        </tr>
+                        <tr>
+                            <td>13:00-15:00</td>
+                            <td><b>Szekcióelőadások I. blokk</b></td>
+                        </tr>
+                        <tr>
+                            <td>15:00-15:30</td>
+                            <td><b>Kávészünet</b></td>
+                        </tr>
+                        <tr>
+                            <td>15:30-17:30</td>
+                            <td><b>Szekcióelőadások II. blokk</b></td>
+                        </tr>
+                        <tr>
+                            <td>17:30-18:30</td>
+                            <td><b>Szünet</b></td>
+                        </tr>
+                        <tr>
+                            <td>18:30-19:00</td>
+                            <td><b>Szoboravatás - MIK 51 ÉV</b></td>
+                        </tr>
+                        <tr>
+                            <td>19:00 - 24:00</td>
+                            <td><b>Jubileumi Est - PTE100 / MIK 51</b></td>
                         </tr>
                     </table>
 
@@ -419,12 +435,7 @@
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <table class="table has-text-left ml-4">
-                        <tr>
-                            <td>15:00-15:30</td>
-                            <td><b>Kávészünet</b></td>
-                        </tr>
-                    </table>
+
                     <h1 class="has-text-left is-size-4 mb-6 ml-4  is-size-6-mobile">MIK PARTNERS - II. BLOKK - 15:30 - 17:30</h1>
                     <CollapsibleSection section="1. szekció" place="A010" sectionName="Alkalmazott informatika" leader="Dr. Várady Géza">
                         <div class="content">
@@ -738,23 +749,8 @@
                         </div>
                     </CollapsibleSection>
 
-                    <table class="table has-text-left ml-4">
-                        <tr>
-                            <td>17:30-18:30</td>
-                            <td><b>SZÜNET</b></td>
-                        </tr>
-                    </table>
                     <h1 class="has-text-left is-size-4 mb-6 ml-4  is-size-6-mobile">POLLACK SZOBORAVATÁS ÉS MIK PARTNERS Jubileumi Est - 18:30 - 24:00 - Fogadótér / Aula</h1>
-                    <table class="table has-text-left ml-4">
-                        <tr>
-                            <td>18:30-19:00</td>
-                            <td><b>Szoboravatás - MIK 51 ÉV</b></td>
-                        </tr>
-                        <tr>
-                            <td>19:00 - 24:00</td>
-                            <td><b>Jubileumi Est - PTE100 / MIK 51</b></td>
-                        </tr>
-                    </table>
+
 
 
                     <div class="has-text-centered mt-6">

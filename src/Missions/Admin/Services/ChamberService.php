@@ -17,6 +17,7 @@ class ChamberService
                 'name' => $adat->name,
                 'email' => $adat->email,
                 'foodticket' => $adat->foodTicket,
+                'organisation' => "",
                 'qrcode' => $adat->getQRCode()
             ]);
         }

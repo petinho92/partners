@@ -15,6 +15,7 @@ class GuestService
                 'name' => $adat->name,
                 'email' => $adat->email,
                 'foodticket' => $adat->foodticket,
+                'organisation' => $adat->organisation,
                 'qrcode' => $adat->getQRCode()
             ]);
         }
