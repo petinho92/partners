@@ -180,7 +180,7 @@
                                 </tr>
                                 <tr>
                                     <td>14:40 - 15:00</td>
-                                    <td>Függönyfal tervezés alkalmazások - VIS 3D szoftver</td>
+                                    <td>Függönyfal tervezés alkalmazások - WIC3D szoftver</td>
                                     <td>WICONA / Dömötör Álmos és Pályi Péter</td>
                                 </tr>
                             </table>
