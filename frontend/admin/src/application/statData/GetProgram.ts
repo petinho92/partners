@@ -34,37 +34,38 @@ export let chambers = [
 ]
 
 export let programType = [
-    {id: 1, name: "Beléptetés"},
-    {id: 2, name: "Plenáris előadás"},
-    {id: 3, name: "Szakmai előadások szekció I."},
-    {id: 4, name: "Szakmai előadások szekció II."},
-    {id: 5, name: "Kiléptetés"}
+    {id: 1, name: "Beléptetés", time: "anytime"},
+    {id: 2, name: "Plenáris előadás", time: "11:00-12:00"},
+    {id: 3, name: "Szakmai előadások szekció I.", time: "13:00-15:00"},
+    {id: 4, name: "Szakmai előadások szekció II.", time: "15:30-17:30"},
+    {id: 5, name: "Kiléptetés", time: "anytime"}
 ];
 
 
 export let programs = [
-    {id: 1, name: "A MŰSZAKI FELSŐOKTATÁS JÖVŐJE", type: 2},
-    {id: 2, name: "INNOVATÍV ORVOSMÉRNÖKI KUTATÁSOK A MIK-EN", type: 2},
-    {id: 3, name: "ZERO CARBON CITIES - Solar Decathlon 2021", type: 2},
-    {id: 4, name: 'MI, VR, Cloud megoldások', type: 3},
-    {id: 5, name: 'Szoftverfejlesztés, üzleti alkalmazások', type: 3},
-    {id: 6, name: 'Könnyűszerkezet / Fenntartható jövő', type: 3},
-    {id: 7, name: 'Modern infrastruktúra - új kihívások', type: 3},
-    {id: 8, name: 'Modern méréstechnika és jelfeldolgozás', type: 3},
-    {id: 9, name: 'Kötés- és gyártástechnológiák', type: 3},
-    {id: 10, name: 'Épületgépészeti irányítástechnika -Vinkler Károly Emlékülés', type: 3},
-    {id: 11, name: 'Energiatárolás és hidrogéntechnológiák', type: 3},
-    {id: 12, name: 'Építőipari munkabiztonság', type: 3},
-    {id: 13, name: 'Média műhely - Vizuális trendek, VR, AR', type: 3},
-    {id: 14, name: 'Alkalmazott informatika', type: 4},
-    {id: 15, name: 'Digitalizált építőipari értéklánc', type: 4},
-    {id: 16, name: 'Carbon-semleges építészet felé', type: 4},
-    {id: 17, name: 'SUSTAINABILITY PRINCIPLES IN CIVIL ENGINEERING', type: 4},
-    {id: 18, name: 'Alternatív tüzelőanyagok', type: 4},
-    {id: 19, name: 'Innovatív fejlesztések a gépgyártásban', type: 4},
-    {id: 20, name: 'Energiatudatos épületgépészet', type: 4},
-    {id: 21, name: 'Energiatárolás és hidrogéntechnológiák', type: 4},
-    {id: 22, name: 'Építőipari munkabiztonság', type: 4},
-    {id: 50, name: 'Beléptetés', type:1},
-    {id: 51, name: 'Kiléptetés', type: 5}
+    // {id: 1, name: "A MŰSZAKI FELSŐOKTATÁS JÖVŐJE", type: 2, time: "11:00-11:30", place:"A010"},
+    {id: 2, name: "INNOVATÍV ORVOSMÉRNÖKI KUTATÁSOK A MIK-EN", type: 2, time: "11:00-11:30", place:"A010"},
+    {id: 3, name: "ZERO CARBON CITIES - Solar Decathlon 2021", type: 2, time: "11:30-12:00", place:"A010"},
+    {id: 4, name: 'MI, VR, Cloud megoldások', type: 3, time: "13:00-15:00", place:"A010"},
+    {id: 5, name: 'Szoftverfejlesztés, üzleti alkalmazások', type: 3, time: "13:00-15:00", place:"A008"},
+    {id: 6, name: 'Könnyűszerkezet / Fenntartható jövő', type: 3, time: "13:00-15:00", place:"E81"},
+    {id: 7, name: 'Modern infrastruktúra - új kihívások', type: 3, time: "13:00-15:00", place:"A302"},
+    {id: 8, name: 'Modern méréstechnika és jelfeldolgozás', type: 3, time: "13:00-15:00", place:"A015"},
+    {id: 9, name: 'Kötés- és gyártástechnológiák', type: 3, time: "13:00-15:00", place:"A017"},
+    {id: 10, name: 'Épületgépészeti irányítástechnika -Vinkler Károly Emlékülés', type: 3, time: "13:00-15:00", place:"A019"},
+    {id: 11, name: 'Energiatárolás és hidrogéntechnológiák', type: 3, time: "13:00-15:00", place:"A202"},
+    {id: 12, name: 'Építőipari munkabiztonság', type: 3, time: "13:00-15:00", place:"A007"},
+    {id: 13, name: 'Média műhely - Vizuális trendek, VR, AR', type: 3, time: "13:00-15:00", place:"A201"},
+    {id: 14, name: 'Betontechnológia', type: 3, time: "13:00-15:00", place:"A204"},
+    {id: 15, name: 'Alkalmazott informatika', type: 4, time: "15:30-17:30", place:"A010"},
+    {id: 16, name: 'Digitalizált építőipari értéklánc', type: 4, time: "15:30-17:30", place:"A008"},
+    {id: 17, name: 'Carbon-semleges építészet felé', type: 4, time: "15:30-17:30", place:"E81"},
+    {id: 18, name: 'SUSTAINABILITY PRINCIPLES IN CIVIL ENGINEERING', type: 4, time: "15:30-17:30", place:"A302"},
+    {id: 19, name: 'Alternatív tüzelőanyagok', type: 4, time: "15:30-17:30", place:"A017"},
+    {id: 20, name: 'Innovatív fejlesztések a gépgyártásban', type: 4, time: "15:30-17:30", place:"A019"},
+    {id: 21, name: 'Energiatudatos épületgépészet', type: 4, time: "15:30-17:30", place:"A015"},
+    {id: 22, name: 'Energiatárolás és hidrogéntechnológiák', type: 4, time: "15:30-17:30", place:"A202"},
+    {id: 23, name: 'Építőipari munkabiztonság', type: 4, time: "15:30-17:30", place:"A007"},
+    {id: 50, name: 'Beléptetés', type:1, time: "anytime", place:"Aula"},
+    {id: 51, name: 'Kiléptetés', type: 5, time: "anytime", place:"Aula"}
 ];

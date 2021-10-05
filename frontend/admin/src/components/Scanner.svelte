@@ -67,7 +67,7 @@
                                 <select bind:value={formData.programType} >
                                     <option value="0">Kérem válasszon!</option>
                                     {#each programType as type}
-                                        <option value={type.id}>{type.name}</option>
+                                        <option value={type.id}>{type.name} - {type.time}</option>
                                     {/each}
                                 </select>
                             </div>
@@ -82,7 +82,7 @@
                                         <option value=0>Kérem válasszon!</option>
                                         {#each programs as program}
                                             {#if formData.programType === program.type}
-                                                <option value={program.id}>{program.name}</option>
+                                                <option value={program.id}>{program.place} - {program.name} - {program.time}</option>
                                             {/if}
                                         {/each}
                                     </select>

@@ -529,7 +529,7 @@
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="4. szekció" sectionName="SUSTAINABILITY PRINCIPLES IN CIVIL ENGINEERING" leader="Dr. Zoltán Orbán">
+                    <CollapsibleSection section="4. szekció" place="A302" sectionName="SUSTAINABILITY PRINCIPLES IN CIVIL ENGINEERING" leader="Dr. Zoltán Orbán">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
@@ -560,7 +560,7 @@
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="5. szekció" sectionName="Alternatív tüzelőanyagok" leader="Dr. Kiss Tibor">
+                    <CollapsibleSection section="5. szekció" place="A017" sectionName="Alternatív tüzelőanyagok" leader="Dr. Kiss Tibor">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
@@ -591,7 +591,7 @@
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="6. szekció" sectionName="Innovatív fejlesztések a gépgyártásban" leader="Zsebe Tamás">
+                    <CollapsibleSection section="6. szekció" place="A019" sectionName="Innovatív fejlesztések a gépgyártásban" leader="Zsebe Tamás">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
@@ -627,7 +627,7 @@
                             </table>
                         </div>
                     </CollapsibleSection>
-                    <CollapsibleSection section="7. szekció" sectionName="Energiatudatos épületgépészet" leader="Eördöghné Dr. Miklós Mária">
+                    <CollapsibleSection section="7. szekció" place="A015" sectionName="Energiatudatos épületgépészet" leader="Eördöghné Dr. Miklós Mária">
                         <div class="content">
                             <table class="table has-text-left is-size-7-mobile">
                                 <tr>
