@@ -377,7 +377,7 @@
                                 <tr>
                                     <td>13:50 - 14:10</td>
                                     <td>Hidrogéntechnológiák szerepe a hazai villamosenergia szektorban</td>
-                                    <td>MVM Balance Zrt. / Kubus Péter</td>
+                                    <td>MVM-Balance Zrt. / Kubus Péter</td>
                                 </tr>
                                 <tr>
                                     <td>14:15 - 14:35</td>
