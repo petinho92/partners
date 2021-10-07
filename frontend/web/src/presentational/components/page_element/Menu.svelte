@@ -35,16 +35,7 @@
                 </div> -->
                 <!-- navbar items | right side -->
                 <div class="navbar-end">
-                    <a class="navbar-item" on:click={ () => push("/student") }
-                    >{$_('menu.registration.student')}</a>
-                    <a class="navbar-item"
-                       on:click={ () => push("/instructor") }>{$_('menu.registration.instructor')}</a>
-                    <a class="navbar-item" on:click={ () => push("/chamber") }>
-                        {$_('menu.registration.chamber')}
-                    </a>
-                    <a class="navbar-item" on:click={ () => push("/guest") }>
-                        {$_('menu.registration.guest')}
-                    </a>
+
                     <div class="navbar-item">
                         <select bind:value={$languages} class="navbar-item">
                             <option value="hu">{$_('menu.lang.hu')}</option>

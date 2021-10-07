@@ -9,17 +9,3 @@
     let done = writable(false);
 </script>
 
-{#if !$done}
-    {#if $location === '/student'}
-        <StudentForm/>
-    {/if}
-    {#if $location === '/guest'}
-        <GuestForm/>
-    {/if}
-    {#if $location === '/instructor'}
-        <InstructorForm/>
-    {/if}
-    {#if $location === '/chamber'}
-        <ChamberForm/>
-    {/if}
-{/if}
